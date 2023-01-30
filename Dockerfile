@@ -1,3 +1,4 @@
+#go-app Dockerfile
 FROM golang as build
 LABEL maintainer="artem.senichev@gmail.com"
 RUN mkdir /app
